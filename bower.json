@@ -1,0 +1,36 @@
+{
+  "name": "angular-sp-popup",
+  "version": "0.0.1",
+  "authors": [
+    "supa-creation.com <contact@supa-creation.com>"
+  ],
+  "description": "angular-sp-popup is a AngularJs plugin allowing to show content in a Popup",
+  "main": [
+    "js/angular-sp-popup.js"
+  ],
+  "dependencies": {
+    "angular": "~1.4.2",
+    "angular-animate": "~1.4.2",
+    "angular-sanitize": "~1.4.2"
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "fancybox",
+    "gallery",
+    "javascript",
+    "lightbox",
+    "popup"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "tests",
+    "node_modules"
+  ],
+  "license": "MIT"
+}
