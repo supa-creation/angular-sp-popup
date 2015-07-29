@@ -1,0 +1,11 @@
+<div class="sp-popup-wrapper" ng-controller="spPopup" ng-show="!hidden">
+    <div class="sp-popup-overlay" ng-click="close()"></div>
+    <div class="sp-popup-container">
+        <div class="sp-popup-close" ng-click="close()" ng-bind-html="options.closeContent"></div>
+        <div class="sp-popup-contents"></div>
+    </div>
+    <div class="sp-popup-margin"></div>
+    <div class="sp-popup-loader" ng-show="!cIsLoaded()"><div></div></div>
+    <div class="sp-popup-prev" ng-click="prev()"></div>
+    <div class="sp-popup-next" ng-click="next()"></div>
+</div>

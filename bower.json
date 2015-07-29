@@ -5,8 +5,13 @@
     "supa-creation.com <contact@supa-creation.com>"
   ],
   "description": "angular-sp-popup is a AngularJs plugin allowing to show content in a Popup",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supa-creation/angular-sp-popup.git"
+  },
   "main": [
-    "js/angular-sp-popup.js"
+    "dist/angular-sp-popup.css",
+    "dist/angular-sp-popup.js"
   ],
   "dependencies": {
     "angular": "~1.4.2",
